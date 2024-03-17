@@ -3,7 +3,7 @@ requires = ["flit"]
 build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
-module = "olsync"
+module = "olsync.olsync"
 dist-name = "overleaf-sync"
 description-file = "README.md"
 author = "Moritz Glöckl"
@@ -27,4 +27,4 @@ requires = [
 keywords = "overleaf sync latex tex"
 
 [tool.flit.scripts]
-ols = "olsync.olsync:main"
+ols = "olsync.olsync.olsync:main"
